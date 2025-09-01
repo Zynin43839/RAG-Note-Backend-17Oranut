@@ -28,7 +28,7 @@ Content-Type: application/json
 ### User route - Create a new note (protected route)
 POST http://localhost:3030/mongo/add-note
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGI1MWI5YjUyZTRkOGFkYTk4NDlkZGIiLCJpYXQiOjE3NTY3MDA2ODgsImV4cCI6MTc1NjcwNDI4OH0.KnzREN9pXZaIDZabTOPg18enhIfxQmt3bFuhO08L01k
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGI1MWI5YjUyZTRkOGFkYTk4NDlkZGIiLCJpYXQiOjE3NTY3MTc5NTksImV4cCI6MTc1NjcyMTU1OX0.x8fNhd1dlxGsJf-kV6ELJoGC6z0ySYNFsljZhgQxzrE
 
 {
   "title": "New note added by login user 3",
@@ -48,7 +48,7 @@ Content-Type: application/json
 
 ### User route - Get User Profile
 GET http://localhost:3030/mongo/auth/profile
-Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGI1MWI5YjUyZTRkOGFkYTk4NDlkZGIiLCJpYXQiOjE3NTY3MDA1MDksImV4cCI6MTc1NjcwNDEwOX0.06aIAoUPN97zyZJ-c5n6B5zrx-VuREdF2wHoyzjc3f8
+Cookie: accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGI1MWI5YjUyZTRkOGFkYTk4NDlkZGIiLCJpYXQiOjE3NTY3MTc5NTksImV4cCI6MTc1NjcyMTU1OX0.x8fNhd1dlxGsJf-kV6ELJoGC6z0ySYNFsljZhgQxzrE
 
 
 ### User route - Login
@@ -62,7 +62,7 @@ Content-Type: application/json
 
 ### Test route - Verify the token (replace <TOKEN> with the token from the login response)
 GET http://localhost:3030/mongo/auth/verify
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGI1MWI5YjUyZTRkOGFkYTk4NDlkZGIiLCJpYXQiOjE3NTY3MDA2ODgsImV4cCI6MTc1NjcwNDI4OH0.KnzREN9pXZaIDZabTOPg18enhIfxQmt3bFuhO08L01k
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGI1MWI5YjUyZTRkOGFkYTk4NDlkZGIiLCJpYXQiOjE3NTY3MTc5NTksImV4cCI6MTc1NjcyMTU1OX0.x8fNhd1dlxGsJf-kV6ELJoGC6z0ySYNFsljZhgQxzrE
 
 ### User route - Logout user
 POST http://localhost:3030/mongo/auth/logout
