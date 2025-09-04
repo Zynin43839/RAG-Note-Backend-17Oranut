@@ -9,8 +9,8 @@ POST http://localhost:3030/mongo/users
 Content-Type: application/json
 
 {
-  "fullName": "Betty",
-  "email": "betty@example.com"
+  "fullName": "TTaroTT Kuromi",
+  "email": "Top@example.com"
 }
 
 ### Admin route - Create a new note (basic)
@@ -41,8 +41,8 @@ POST http://localhost:3030/mongo/auth/register
 Content-Type: application/json
 
 {
-  "fullName": "John Doe",
-  "email": "johndoe@example.com",
+  "fullName": "LuNaEiEi",
+  "email": "Scottich@example.com",
   "password": "securePassword123"
 }
 
